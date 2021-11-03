@@ -1,6 +1,6 @@
 ---
-author: Gvido Bērziņš
-date: 02.11.2021
+Author: Gvido Bērziņš
+Date: 02.11.2021
 ---
 
 A simple script for launching the latest meeting in the browser by using Google Calendar API.

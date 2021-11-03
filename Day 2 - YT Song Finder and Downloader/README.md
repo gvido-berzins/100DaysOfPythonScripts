@@ -1,6 +1,6 @@
 ---
-title: Gvido Bērziņš
-date: 03.11.2021
+Author: Gvido Bērziņš
+Date: 03.11.2021
 ---
 
 A script for searching and downloading songs from Youtube video descriptions.
