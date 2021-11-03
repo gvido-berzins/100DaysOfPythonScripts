@@ -3,7 +3,7 @@ Author: Gvido Bērziņš
 Date: 02.11.2021
 ---
 
-# 100DaysOfPythonScripts
+# 100 Days Of Python Scripts
 
 A repository of Python scripts produced from taking up a challenge of writting a Python script a day for 100 days.
 
