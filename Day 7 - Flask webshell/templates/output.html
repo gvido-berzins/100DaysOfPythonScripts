@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Scroll Automatically</title>
+</head>
+
+<body>
+	<h1>Output stream from the command-line</h1>
+	<div id="parent"></div>
+	<span id="data">Scrolled here</span>
+</body>
+
+<script>
+function addItem(id) {
+	el = document.createElement("span");
+	el.setAttribute("id", id);
+	el.appendChild(document.createTextNode(id));
+	document.getElementById("parent").appendChild(el).appendChild(document.createElement("br"));
+}
+
+function scrollTo(id) {
+  const el = document.getElementById(id);
+	el.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+}
+
+let i = 0;
+let pId = -1;
+window.setInterval(function() {
+ 	id = "data" + i;
+	if (i != 1000 && pId != id) {
+		addItem(id);
+		scrollTo(id);
+		i++;
+	};
+	pId = id;
+}, 200);
+</script>
+</html>
