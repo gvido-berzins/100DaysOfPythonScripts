@@ -1,0 +1,2 @@
+gspread_asyncio==1.5.2
+protobuf==3.19.1
