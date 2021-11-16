@@ -11,8 +11,8 @@ DEFAULT_LOCALES = ["en", "ru", "de"]
 EXT_CHOICES = ["php", "js", "ts", "json", "po", "pot", "mo", "xliff", "yaml"]
 YAML_TEMPLATE = ""
 JSON_TEMPLATE = "{}"
-JS_TEMPLATE = "export defaults {}"
-TS_TEMPLATE = "export defaults {}"
+JS_TEMPLATE = "export defaults {};"
+TS_TEMPLATE = "module.exports = {};"
 PHP_TEMPLATE = "<?php\n\nreturn [];"
 POT_TEMPLATE = '''
 msgid ""
