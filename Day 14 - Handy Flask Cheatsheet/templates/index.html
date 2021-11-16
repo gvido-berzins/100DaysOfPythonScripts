@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>The Q cracka</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>I give you the Q to your A</h2>
+      <br>
+			<form method="post">
+					<label for="search">Question:</label>
+					<input type="text" name="search" id="search" required>
+					<label for="tolerance">Tolerance:</label>
+					<input type="text" name="tolerance" id="tolerance">
+					<input type="checkbox" id="custom" name="custom" value="{{ custom }}">
+					<label for="custom"> Custom cheatsheet</label><br>
+					<input type="submit">
+			</form>
+			<div>
+				{% autoescape false %}
+					<p>{{ result }}</p><br>
+				{% endautoescape %}
+			</div>
+      <br>
+    </div>
+  </body>
+</html>
