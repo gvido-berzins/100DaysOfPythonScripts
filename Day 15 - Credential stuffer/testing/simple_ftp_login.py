@@ -3,7 +3,7 @@ import socket
 ip = "0.0.0.0"
 port = 21
 username = "vsftp"
-password = "Ekstragol2"
+password = "vsftp"
 
 
 def login_ftp(target):

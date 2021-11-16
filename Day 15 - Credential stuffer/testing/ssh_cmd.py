@@ -2,10 +2,10 @@
 
 import paramiko
 
-ip = "192.168.41.114"
+ip = "192.168.1.100"
 port = 22
-user = "gberzins"
-password = "Ekstragol No G0@l"
+user = "gb"
+password = "password"
 
 
 def ssh_login_check(ip, port, user, passwd):
