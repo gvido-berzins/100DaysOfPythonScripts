@@ -33,11 +33,11 @@ the script.
 
 The script has a few options for querying the data from the database
 
-`g` - get a single record
-`ga` - get all
-`gn` - get all numbers
-`sa` - insert all
-`flushdb` - empty out the database
+`g` - get a single record \
+`ga` - get all \
+`gn` - get all numbers \
+`sa` - insert all \
+`flushdb` - empty out the database \
 
 I left examples in the `input` directory, which is where the data for `sa`
 mode is stored in, all of the data in there will be imported into the
