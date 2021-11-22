@@ -48,12 +48,8 @@ a script with MicroPython.
 
 Here's some media ->
 
-[[/media/first-test-pic.jpg]]
-
-[[/media/first-test-top-view.jpg]]
-
-[[/media/first-test.mp4]]
-
-[[/media/pre-assembly-test.mp4]]
-
-[[/media/skelly-leds.mp4]]
+![First test picture](media/first-test-pic.jpg)
+![First test top view](media/first-test-top-view.jpg)
+![First test video](media/first-test.mp4)
+![Pre assembly test](media/pre-assembly-test.mp4)
+![Assembled test](media/skelly-leds.mp4)
