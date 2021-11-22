@@ -50,6 +50,6 @@ Here's some media ->
 
 ![First test picture](media/first-test-pic.jpg)
 ![First test top view](media/first-test-top-view.jpg)
-![First test video](media/first-test.mp4)
-![Pre assembly test](media/pre-assembly-test.mp4)
-![Assembled test](media/skelly-leds.mp4)
+![First test video](media/first-test.gif)
+![Pre assembly test](media/pre-assembly-test.gif)
+![Assembled test](media/skelly-leds.gif)
