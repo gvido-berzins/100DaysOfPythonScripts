@@ -49,7 +49,11 @@ a script with MicroPython.
 Here's some media ->
 
 [[/media/first-test-pic.jpg]]
+
 [[/media/first-test-top-view.jpg]]
+
 [[/media/first-test.mp4]]
+
 [[/media/pre-assembly-test.mp4]]
+
 [[/media/skelly-leds.mp4]]
