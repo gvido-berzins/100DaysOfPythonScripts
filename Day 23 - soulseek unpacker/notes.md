@@ -84,3 +84,13 @@ Out[61]:
  'tracktotal',
  'tracknumber']
 ```
+
+
+## Methodology
+
+Recursively scan directories with given file extensions
+
+```python
+ exts = ("opus", "mp3", "m4a", "flac", "ogg", "wav", "avi")
+results = [os.path.join(dp, f) for dp, dn, fn in os.walk(".") for f in fn if f.endswith(exts)]
+```
